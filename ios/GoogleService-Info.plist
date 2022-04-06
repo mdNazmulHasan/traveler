@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>925749541564-b22a8mpdspl1ju1u8m3a5cmrvg1ndvh6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.925749541564-b22a8mpdspl1ju1u8m3a5cmrvg1ndvh6</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>925749541564-hp5gh7fumh2e7jm4juv85atpqnab46qk.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA7vRm9ulOp1Bi22-ocMDgByOC22rykG9o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>925749541564</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>mdnazmulhasan.traveler</string>
+	<key>PROJECT_ID</key>
+	<string>kinetic-dream-106907</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kinetic-dream-106907.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:925749541564:ios:89b9d6cbbeedb57f866eb9</string>
+	<key>DATABASE_URL</key>
+	<string>https://kinetic-dream-106907.firebaseio.com</string>
+</dict>
+</plist>
