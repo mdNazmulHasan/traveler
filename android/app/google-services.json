@@ -1,0 +1,227 @@
+{
+  "project_info": {
+    "project_number": "925749541564",
+    "firebase_url": "https://kinetic-dream-106907.firebaseio.com",
+    "project_id": "kinetic-dream-106907",
+    "storage_bucket": "kinetic-dream-106907.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925749541564:android:f6cb2b13ca942512866eb9",
+        "android_client_info": {
+          "package_name": "com.example.basicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925749541564-j21rdbvnia7kjal5vnqsi7qgqb44m7kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh1zRMiBaoODZ5iR3s9n92xl-FH4znlRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925749541564-j21rdbvnia7kjal5vnqsi7qgqb44m7kk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "925749541564-5hs8vmvvekl1s87v4ktl75lh8tkofgq6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nazmul.friendlychat"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925749541564:android:8331fd9f1ad88190866eb9",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925749541564-j21rdbvnia7kjal5vnqsi7qgqb44m7kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh1zRMiBaoODZ5iR3s9n92xl-FH4znlRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925749541564-j21rdbvnia7kjal5vnqsi7qgqb44m7kk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "925749541564-5hs8vmvvekl1s87v4ktl75lh8tkofgq6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nazmul.friendlychat"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925749541564:android:5514dba570c327cf866eb9",
+        "android_client_info": {
+          "package_name": "com.traveler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925749541564-j21rdbvnia7kjal5vnqsi7qgqb44m7kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh1zRMiBaoODZ5iR3s9n92xl-FH4znlRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925749541564-j21rdbvnia7kjal5vnqsi7qgqb44m7kk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "925749541564-5hs8vmvvekl1s87v4ktl75lh8tkofgq6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nazmul.friendlychat"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925749541564:android:39b2c94d142c6bf9866eb9",
+        "android_client_info": {
+          "package_name": "e.android.basicapplicationproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925749541564-j21rdbvnia7kjal5vnqsi7qgqb44m7kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh1zRMiBaoODZ5iR3s9n92xl-FH4znlRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925749541564-j21rdbvnia7kjal5vnqsi7qgqb44m7kk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "925749541564-5hs8vmvvekl1s87v4ktl75lh8tkofgq6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nazmul.friendlychat"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925749541564:android:1ce05da7fca74aed866eb9",
+        "android_client_info": {
+          "package_name": "e.minion.basicinputoutput"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925749541564-j21rdbvnia7kjal5vnqsi7qgqb44m7kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh1zRMiBaoODZ5iR3s9n92xl-FH4znlRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925749541564-j21rdbvnia7kjal5vnqsi7qgqb44m7kk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "925749541564-5hs8vmvvekl1s87v4ktl75lh8tkofgq6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nazmul.friendlychat"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925749541564:android:cc7fff8d9fae21cf866eb9",
+        "android_client_info": {
+          "package_name": "mdnazmulhasan.traveler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925749541564-j21rdbvnia7kjal5vnqsi7qgqb44m7kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh1zRMiBaoODZ5iR3s9n92xl-FH4znlRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925749541564-j21rdbvnia7kjal5vnqsi7qgqb44m7kk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "925749541564-5hs8vmvvekl1s87v4ktl75lh8tkofgq6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nazmul.friendlychat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,4 @@
-package com.traveler.newarchitecture;
+package mdnazmulhasan.traveler.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,11 +19,12 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.traveler.BuildConfig;
 import com.traveler.newarchitecture.components.MainComponentsRegistry;
 import com.traveler.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
+
+import mdnazmulhasan.traveler.BuildConfig;
 
 /**
  * A {@link ReactNativeHost} that helps you load everything needed for the New Architecture, both

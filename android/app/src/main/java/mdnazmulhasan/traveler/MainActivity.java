@@ -1,4 +1,4 @@
-package com.traveler;
+package mdnazmulhasan.traveler;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
