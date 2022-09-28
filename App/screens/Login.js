@@ -5,7 +5,7 @@ import {
   GoogleSigninButton,
   statusCodes,
 } from '@react-native-google-signin/google-signin';
-const App = () => {
+const Login = () => {
   const [loggedIn, setloggedIn] = useState(false);
   const [userInfo, setuserInfo] = useState([]);
   useEffect(() => {
@@ -56,4 +56,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Login;
