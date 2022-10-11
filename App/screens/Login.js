@@ -70,7 +70,7 @@ const Login = () => {
               width: 192,
               color: colorBox.white,
               fontSize: 30,
-              fontWeight:'bold'
+              fontFamily: 'IBMPlexMono-Bold',
             }}>
             Traveller
           </Text>
