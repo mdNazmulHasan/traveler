@@ -1,10 +1,11 @@
 import React, {useEffect, useState} from 'react';
-import {SafeAreaView, StyleSheet, Text, TouchableOpacity} from 'react-native';
+import {SafeAreaView, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import {
   GoogleSignin,
   GoogleSigninButton,
   statusCodes,
 } from '@react-native-google-signin/google-signin';
+import { colorBox, windowHeight, windowWidth } from '../utils/commonStyles';
 const Login = () => {
   const [loggedIn, setloggedIn] = useState(false);
   const [userInfo, setuserInfo] = useState([]);
@@ -38,12 +39,52 @@ const Login = () => {
   };
   return (
     <SafeAreaView style={styles.container}>
-      <GoogleSigninButton
-        style={{width: 192, height: 48}}
-        size={GoogleSigninButton.Size.Wide}
-        color={GoogleSigninButton.Color.Dark}
-        onPress={signIn}
+      <View
+        style={{
+          backgroundColor: '#d9d9d9',
+          width: windowWidth,
+          height: windowHeight * 0.5,
+          marginRight: -50,
+          borderRadius: 32,
+          marginTop: windowHeight * 0.5,
+        }}
       />
+
+      <View
+        style={{
+          backgroundColor: '#A0697A',
+          width: windowWidth,
+          height: windowHeight * 0.9,
+          marginRight: -windowWidth * 0.27,
+          marginTop: -windowHeight * 0.46,
+          borderRadius: 32,
+        }}>
+        <View
+          style={{
+            marginLeft: windowWidth * 0.15,
+            marginTop: windowHeight * 0.25,
+          }}>
+          <Text
+            style={{
+              textAlign: 'center',
+              width: 192,
+              color: colorBox.white,
+              fontSize: 30,
+              fontWeight:'bold'
+            }}>
+            Traveller
+          </Text>
+          <GoogleSigninButton
+            style={{
+              width: 192,
+              height: 48,
+            }}
+            size={GoogleSigninButton.Size.Wide}
+            color={GoogleSigninButton.Color.Dark}
+            onPress={signIn}
+          />
+        </View>
+      </View>
     </SafeAreaView>
   );
 };
