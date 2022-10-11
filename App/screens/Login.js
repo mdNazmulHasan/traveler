@@ -13,7 +13,7 @@ const Login = () => {
     GoogleSignin.configure({
       scopes: ['email'],
       webClientId:
-        '925749541564-b22a8mpdspl1ju1u8m3a5cmrvg1ndvh6.apps.googleusercontent.com',
+        '925749541564-j21rdbvnia7kjal5vnqsi7qgqb44m7kk.apps.googleusercontent.com',
       offlineAccess: true,
     });
   }, []);
@@ -34,6 +34,7 @@ const Login = () => {
         // play services not available or outdated
       } else {
         // some other error happened
+        console.log(error);
       }
     }
   };

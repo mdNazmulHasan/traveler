@@ -195,6 +195,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "925749541564-jhqq2jj5lsv3mi882f5o9aac52j0rfst.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mdnazmulhasan.traveler",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
           "client_id": "925749541564-j21rdbvnia7kjal5vnqsi7qgqb44m7kk.apps.googleusercontent.com",
           "client_type": 3
         }
