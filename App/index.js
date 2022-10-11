@@ -1,6 +1,11 @@
 import * as React from 'react';
-import Login from './screens/Login';
+import {NavigationContainer} from '@react-navigation/native';
+import Root from './navigator/Root';
 
 export default function App() {
-  return <Login />;
+  return (
+    <NavigationContainer>
+      <Root />
+    </NavigationContainer>
+  );
 }
