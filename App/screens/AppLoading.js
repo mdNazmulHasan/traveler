@@ -20,7 +20,7 @@ function AppLoading({navigation}) {
       }
     }
     checkIsSignedInAndSetNavigation();
-  }, []);
+  }, [navigation]);
   return (
     <View
       style={{
