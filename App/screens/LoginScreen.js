@@ -6,7 +6,7 @@ import {
   statusCodes,
 } from '@react-native-google-signin/google-signin';
 import {colorBox, windowHeight, windowWidth} from '../utils/commonStyles';
-const Login = ({navigation}) => {
+const LoginScreen = ({navigation}) => {
   const [loggedIn, setloggedIn] = useState(false);
   const [userInfo, setuserInfo] = useState([]);
   useEffect(() => {
@@ -24,7 +24,7 @@ const Login = ({navigation}) => {
       setloggedIn(true);
       navigation.navigate('Home');
     } catch (error) {
-      console.log("🚀 ~ file: Login.js ~ line 27 ~ signIn ~ error", error)
+      console.log('🚀 ~ file: Login.js ~ line 27 ~ signIn ~ error', error);
       if (error.code === statusCodes.SIGN_IN_CANCELLED) {
         // user cancelled the login flow
         alert('Cancel');
@@ -100,4 +100,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Login;
+export default LoginScreen;

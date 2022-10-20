@@ -1,9 +1,9 @@
-import { GoogleSignin } from '@react-native-google-signin/google-signin';
+import {GoogleSignin} from '@react-native-google-signin/google-signin';
 import * as React from 'react';
 import {View, Text} from 'react-native';
 import {colorBox} from '../utils/commonStyles';
 
-function AppLoading({navigation}) {
+function AppLoadingScreen({navigation}) {
   React.useEffect(() => {
     async function checkIsSignedInAndSetNavigation() {
       try {
@@ -43,4 +43,4 @@ function AppLoading({navigation}) {
   );
 }
 
-export default AppLoading;
+export default AppLoadingScreen;

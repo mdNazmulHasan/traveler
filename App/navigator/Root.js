@@ -1,6 +1,7 @@
 import * as React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {AppLoading, Home, Login} from '../screens';
+import {AppLoadingScreen, LoginScreen} from '../screens';
+import MainTab from './MainTab';
 
 const Stack = createNativeStackNavigator();
 function Root() {
@@ -17,11 +18,11 @@ function Root() {
       }}>
       <Stack.Screen
         name="AppLoading"
-        component={AppLoading}
+        component={AppLoadingScreen}
         options={{cardStyleInterpolator: forFade}}
       />
-      <Stack.Screen name="Login" component={Login} />
-      <Stack.Screen name="Home" component={Home} />
+      <Stack.Screen name="Login" component={LoginScreen} />
+      <Stack.Screen name="Home" component={MainTab} />
     </Stack.Navigator>
   );
 }

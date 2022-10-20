@@ -1,5 +1,5 @@
-import Login from './Login';
-import Home from './Home';
-import AppLoading from './AppLoading';
+import LoginScreen from './LoginScreen';
+import WishlistScreen from './WishlistScreen';
+import AppLoadingScreen from './AppLoadingScreen';
 
-export {Login, Home, AppLoading};
+export {LoginScreen, WishlistScreen, AppLoadingScreen};
