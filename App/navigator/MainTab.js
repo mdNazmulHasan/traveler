@@ -3,13 +3,14 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {WishlistScreen} from '../screens';
 import MyPlacesScreen from '../screens/MyPlacesScreen';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import Header from '../components/Header';
 
 const Tab = createBottomTabNavigator();
 export default function MainTab() {
   return (
     <Tab.Navigator
       screenOptions={({route}) => ({
-        headerShown: false,
+        header: props => <Header {...props} />,
         tabBarIcon: ({focused, color, size}) => {
           let iconName;
 

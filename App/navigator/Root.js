@@ -2,6 +2,7 @@ import * as React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {AppLoadingScreen, LoginScreen} from '../screens';
 import MainTab from './MainTab';
+import {GoogleSignin} from '@react-native-google-signin/google-signin';
 
 const Stack = createNativeStackNavigator();
 function Root() {
@@ -10,6 +11,14 @@ function Root() {
       opacity: current.progress,
     },
   });
+  React.useEffect(() => {
+    GoogleSignin.configure({
+      scopes: ['email'],
+      webClientId:
+        '925749541564-j21rdbvnia7kjal5vnqsi7qgqb44m7kk.apps.googleusercontent.com',
+      offlineAccess: true,
+    });
+  }, []);
 
   return (
     <Stack.Navigator

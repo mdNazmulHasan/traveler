@@ -9,14 +9,7 @@ import {colorBox, windowHeight, windowWidth} from '../utils/commonStyles';
 const LoginScreen = ({navigation}) => {
   const [loggedIn, setloggedIn] = useState(false);
   const [userInfo, setuserInfo] = useState([]);
-  useEffect(() => {
-    GoogleSignin.configure({
-      scopes: ['email'],
-      webClientId:
-        '925749541564-j21rdbvnia7kjal5vnqsi7qgqb44m7kk.apps.googleusercontent.com',
-      offlineAccess: true,
-    });
-  }, []);
+  
   const signIn = async () => {
     try {
       await GoogleSignin.hasPlayServices();
