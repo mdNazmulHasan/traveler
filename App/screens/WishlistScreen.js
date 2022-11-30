@@ -10,6 +10,7 @@ function WishlistScreen() {
 
     setIsExtended(currentScrollPosition <= 0);
   };
+  const _moveToAddNew = () => {};
 
   return (
     <SafeAreaView style={styles.container}>
@@ -22,7 +23,7 @@ function WishlistScreen() {
         icon={'plus'}
         label={'Add New'}
         extended={isExtended}
-        onPress={() => console.log('Pressed')}
+        onPress={_moveToAddNew}
         visible
         animateFrom={'right'}
         iconMode={'dynamic'}
