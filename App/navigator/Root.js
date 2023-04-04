@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {AppLoadingScreen, LoginScreen} from '../screens';
+import {AddNewPlaceScreen, AppLoadingScreen, LoginScreen} from '../screens';
 import MainTab from './MainTab';
 import {GoogleSignin} from '@react-native-google-signin/google-signin';
 
@@ -32,6 +32,7 @@ function Root() {
       />
       <Stack.Screen name="Login" component={LoginScreen} />
       <Stack.Screen name="Home" component={MainTab} />
+      <Stack.Screen name="Add" component={AddNewPlaceScreen} />
     </Stack.Navigator>
   );
 }
